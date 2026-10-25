@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fast-mario-env"
+version = "0.1.0"
+description = "Bit-exact, batched, 10-15x faster Super Mario Bros (nes-py / gym-super-mario-bros) environment for RL, with an optional CUDA backend"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Andrew Stelmach" }]
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.21"]
+keywords = ["reinforcement-learning", "super-mario-bros", "nes", "emulator", "gym", "vectorized-environment", "cuda"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: C++",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: POSIX :: Linux",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.optional-dependencies]
+sb3 = ["gymnasium", "stable-baselines3>=2.0"]
+cuda = ["torch>=2.1"]
+train = ["torch>=2.1", "tensorboard"]
+# reference implementation for the fidelity tests. nes-py 8.2.1 does not work with numpy 2.
+test = [
+  "pytest",
+  "numpy<2",
+  "nes-py==8.2.1",
+  "gym-super-mario-bros==7.4.0",
+  "opencv-python-headless",
+]
+
+[project.urls]
+Homepage = "https://github.com/astelmach20/fast-mario-env"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"fast_mario_env.cuda" = ["kernels/*.cu"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+  "cuda: needs torch with a CUDA GPU",
+  "slow: long-running (enabled with FME_TEST_SCALE>1 or explicitly)",
+]
+filterwarnings = ["ignore::DeprecationWarning", "ignore::UserWarning"]

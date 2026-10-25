@@ -1,0 +1,4 @@
+include LICENSE THIRD_PARTY_NOTICES.md README.md
+recursive-include csrc *.cpp *.hpp
+recursive-include src/fast_mario_env/cuda/kernels *.cu
+recursive-include tests *.py

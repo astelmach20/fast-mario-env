@@ -1,0 +1,32 @@
+# build products
+build/
+dist/
+*.egg-info/
+*.so
+*.dylib
+*.dll
+*.pyd
+*.o
+*.cubin
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# never commit game ROMs
+*.nes
+*.NES
+*.fds
+*.zip
+
+# run outputs
+runs/
+logs/
+*.pt
+*.pth
+*.ckpt
+events.out.tfevents.*
+*.monitor.csv
+progress.jsonl
+result.json
