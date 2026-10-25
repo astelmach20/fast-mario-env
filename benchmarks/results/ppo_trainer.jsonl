@@ -1,0 +1,185 @@
+{"bench": "learner_train", "batch": 256, "bf16": false, "channels_last": false, "cuda_graph": false, "samples_per_s": 200586, "ms_per_step": 1.276, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_train", "batch": 1024, "bf16": false, "channels_last": false, "cuda_graph": false, "samples_per_s": 222353, "ms_per_step": 4.605, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_train", "batch": 4096, "bf16": false, "channels_last": false, "cuda_graph": false, "samples_per_s": 232069, "ms_per_step": 17.65, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_train", "batch": 256, "bf16": false, "channels_last": false, "cuda_graph": true, "samples_per_s": 209273, "ms_per_step": 1.223, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_train", "batch": 1024, "bf16": false, "channels_last": false, "cuda_graph": true, "samples_per_s": 225030, "ms_per_step": 4.551, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_train", "batch": 4096, "bf16": false, "channels_last": false, "cuda_graph": true, "samples_per_s": 224214, "ms_per_step": 18.268, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_train", "batch": 256, "bf16": false, "channels_last": true, "cuda_graph": false, "samples_per_s": 193042, "ms_per_step": 1.326, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_train", "batch": 1024, "bf16": false, "channels_last": true, "cuda_graph": false, "samples_per_s": 213029, "ms_per_step": 4.807, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_train", "batch": 4096, "bf16": false, "channels_last": true, "cuda_graph": false, "samples_per_s": 221278, "ms_per_step": 18.511, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_train", "batch": 256, "bf16": false, "channels_last": true, "cuda_graph": true, "samples_per_s": 212442, "ms_per_step": 1.205, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_train", "batch": 1024, "bf16": false, "channels_last": true, "cuda_graph": true, "samples_per_s": 215916, "ms_per_step": 4.743, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_train", "batch": 4096, "bf16": false, "channels_last": true, "cuda_graph": true, "samples_per_s": 217017, "ms_per_step": 18.874, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_train", "batch": 256, "bf16": true, "channels_last": false, "cuda_graph": false, "samples_per_s": 224576, "ms_per_step": 1.14, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_train", "batch": 1024, "bf16": true, "channels_last": false, "cuda_graph": false, "samples_per_s": 260052, "ms_per_step": 3.938, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_train", "batch": 4096, "bf16": true, "channels_last": false, "cuda_graph": false, "samples_per_s": 266737, "ms_per_step": 15.356, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_train", "batch": 256, "bf16": true, "channels_last": false, "cuda_graph": true, "samples_per_s": 228664, "ms_per_step": 1.12, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_train", "batch": 1024, "bf16": true, "channels_last": false, "cuda_graph": true, "samples_per_s": 262258, "ms_per_step": 3.905, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_train", "batch": 4096, "bf16": true, "channels_last": false, "cuda_graph": true, "samples_per_s": 267363, "ms_per_step": 15.32, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_train", "batch": 256, "bf16": true, "channels_last": true, "cuda_graph": false, "samples_per_s": 206277, "ms_per_step": 1.241, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_train", "batch": 1024, "bf16": true, "channels_last": true, "cuda_graph": false, "samples_per_s": 262180, "ms_per_step": 3.906, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_train", "batch": 4096, "bf16": true, "channels_last": true, "cuda_graph": false, "samples_per_s": 271432, "ms_per_step": 15.09, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_train", "batch": 256, "bf16": true, "channels_last": true, "cuda_graph": true, "samples_per_s": 246867, "ms_per_step": 1.037, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_train", "batch": 1024, "bf16": true, "channels_last": true, "cuda_graph": true, "samples_per_s": 264734, "ms_per_step": 3.868, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_train", "batch": 4096, "bf16": true, "channels_last": true, "cuda_graph": true, "samples_per_s": 272403, "ms_per_step": 15.037, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_infer", "batch": 8, "bf16": false, "mode": "eager", "samples_per_s": 54721, "ms_per_call": 0.146, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_infer", "batch": 8, "bf16": false, "mode": "graph", "samples_per_s": 81265, "ms_per_call": 0.098, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_infer", "batch": 32, "bf16": false, "mode": "eager", "samples_per_s": 209821, "ms_per_call": 0.153, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_infer", "batch": 32, "bf16": false, "mode": "graph", "samples_per_s": 259917, "ms_per_call": 0.123, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_infer", "batch": 64, "bf16": false, "mode": "eager", "samples_per_s": 422604, "ms_per_call": 0.151, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_infer", "batch": 64, "bf16": false, "mode": "graph", "samples_per_s": 427750, "ms_per_call": 0.15, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_infer", "batch": 128, "bf16": false, "mode": "eager", "samples_per_s": 542283, "ms_per_call": 0.236, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_infer", "batch": 128, "bf16": false, "mode": "graph", "samples_per_s": 528367, "ms_per_call": 0.242, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_infer", "batch": 256, "bf16": false, "mode": "eager", "samples_per_s": 595904, "ms_per_call": 0.43, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_infer", "batch": 256, "bf16": false, "mode": "graph", "samples_per_s": 604138, "ms_per_call": 0.424, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_infer", "batch": 512, "bf16": false, "mode": "eager", "samples_per_s": 496439, "ms_per_call": 1.031, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_infer", "batch": 512, "bf16": false, "mode": "graph", "samples_per_s": 511491, "ms_per_call": 1.001, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_infer", "batch": 8, "bf16": true, "mode": "eager", "samples_per_s": 40902, "ms_per_call": 0.196, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_infer", "batch": 8, "bf16": true, "mode": "graph", "samples_per_s": 95205, "ms_per_call": 0.084, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_infer", "batch": 32, "bf16": true, "mode": "eager", "samples_per_s": 162075, "ms_per_call": 0.197, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_infer", "batch": 32, "bf16": true, "mode": "graph", "samples_per_s": 317665, "ms_per_call": 0.101, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_infer", "batch": 64, "bf16": true, "mode": "eager", "samples_per_s": 333751, "ms_per_call": 0.192, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_infer", "batch": 64, "bf16": true, "mode": "graph", "samples_per_s": 456661, "ms_per_call": 0.14, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_infer", "batch": 128, "bf16": true, "mode": "eager", "samples_per_s": 524732, "ms_per_call": 0.244, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_infer", "batch": 128, "bf16": true, "mode": "graph", "samples_per_s": 587860, "ms_per_call": 0.218, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_infer", "batch": 256, "bf16": true, "mode": "eager", "samples_per_s": 616727, "ms_per_call": 0.415, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_infer", "batch": 256, "bf16": true, "mode": "graph", "samples_per_s": 623394, "ms_per_call": 0.411, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_infer", "batch": 512, "bf16": true, "mode": "eager", "samples_per_s": 508530, "ms_per_call": 1.007, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "learner_infer", "batch": 512, "bf16": true, "mode": "graph", "samples_per_s": 521266, "ms_per_call": 0.982, "load1": 0.32, "t": "2026-10-25 15:08:08"}
+{"bench": "env", "n_envs": 1, "threads": 1, "groups": 1, "sps": 3551.0, "load1": 0.49, "t": "2026-10-25 15:08:55"}
+{"bench": "env", "n_envs": 16, "threads": 8, "groups": 1, "sps": 20931.0, "load1": 0.49, "t": "2026-10-25 15:08:55"}
+{"bench": "env", "n_envs": 16, "threads": 16, "groups": 1, "sps": 24475.9, "load1": 0.49, "t": "2026-10-25 15:08:55"}
+{"bench": "env", "n_envs": 16, "threads": 8, "groups": 2, "sps": 22076.7, "load1": 0.49, "t": "2026-10-25 15:08:55"}
+{"bench": "env", "n_envs": 16, "threads": 16, "groups": 2, "sps": 22045.0, "load1": 0.49, "t": "2026-10-25 15:08:55"}
+{"bench": "env", "n_envs": 32, "threads": 8, "groups": 1, "sps": 22862.8, "load1": 0.49, "t": "2026-10-25 15:08:55"}
+{"bench": "env", "n_envs": 32, "threads": 16, "groups": 1, "sps": 25648.2, "load1": 0.49, "t": "2026-10-25 15:08:55"}
+{"bench": "env", "n_envs": 32, "threads": 8, "groups": 2, "sps": 24985.0, "load1": 0.49, "t": "2026-10-25 15:08:55"}
+{"bench": "env", "n_envs": 32, "threads": 16, "groups": 2, "sps": 24313.1, "load1": 0.49, "t": "2026-10-25 15:08:55"}
+{"bench": "env", "n_envs": 64, "threads": 8, "groups": 1, "sps": 24797.6, "load1": 0.49, "t": "2026-10-25 15:08:55"}
+{"bench": "env", "n_envs": 64, "threads": 16, "groups": 1, "sps": 27630.4, "load1": 0.49, "t": "2026-10-25 15:08:55"}
+{"bench": "env", "n_envs": 64, "threads": 8, "groups": 2, "sps": 27515.9, "load1": 0.49, "t": "2026-10-25 15:08:55"}
+{"bench": "env", "n_envs": 64, "threads": 16, "groups": 2, "sps": 27054.6, "load1": 0.49, "t": "2026-10-25 15:08:55"}
+{"bench": "env", "n_envs": 128, "threads": 8, "groups": 1, "sps": 26468.4, "load1": 0.49, "t": "2026-10-25 15:08:55"}
+{"bench": "env", "n_envs": 128, "threads": 16, "groups": 1, "sps": 29217.4, "load1": 0.49, "t": "2026-10-25 15:08:55"}
+{"bench": "env", "n_envs": 128, "threads": 8, "groups": 2, "sps": 28990.0, "load1": 0.49, "t": "2026-10-25 15:08:55"}
+{"bench": "env", "n_envs": 128, "threads": 16, "groups": 2, "sps": 28594.7, "load1": 0.49, "t": "2026-10-25 15:08:55"}
+{"bench": "env", "n_envs": 256, "threads": 8, "groups": 1, "sps": 26823.6, "load1": 0.49, "t": "2026-10-25 15:08:55"}
+{"bench": "env", "n_envs": 256, "threads": 16, "groups": 1, "sps": 30655.9, "load1": 0.49, "t": "2026-10-25 15:08:55"}
+{"bench": "env", "n_envs": 256, "threads": 8, "groups": 2, "sps": 30405.0, "load1": 0.49, "t": "2026-10-25 15:08:55"}
+{"bench": "env", "n_envs": 256, "threads": 16, "groups": 2, "sps": 29807.1, "load1": 0.49, "t": "2026-10-25 15:08:55"}
+{"bench": "sb3_profile", "n_envs": 8, "steps": 12288, "wall_s": 2.62, "fps": 4683, "us_per_step": {"env_cpp": 53.4, "env_python": 28.4, "h2d": 4.0, "forward": 55.1, "buffer": 16.1, "update": 48.4, "d2h+other": 8.3}, "share": {"env_cpp": 0.25, "env_python": 0.133, "h2d": 0.019, "forward": 0.258, "buffer": 0.075, "update": 0.227, "d2h+other": 0.039}, "sync_timers": true, "load1": 4.94, "t": "2026-10-25 15:10:27"}
+{"bench": "sb3_profile", "n_envs": 32, "steps": 49152, "wall_s": 7.34, "fps": 6697, "us_per_step": {"env_cpp": 46.5, "env_python": 25.1, "h2d": 4.9, "forward": 14.6, "buffer": 11.4, "update": 46.5, "d2h+other": 0.3}, "share": {"env_cpp": 0.311, "env_python": 0.168, "h2d": 0.033, "forward": 0.098, "buffer": 0.076, "update": 0.311, "d2h+other": 0.002}, "sync_timers": true, "load1": 4.41, "t": "2026-10-25 15:10:37"}
+{"bench": "trainer_sb3", "args": "--graph 0", "groups": 1, "bf16": 0, "graph": 0, "fps": 3202, "wall_s": 25.6, "share": {"gpu_wait": 0.411, "env_wait": 0.324, "collect": 0.853, "update": 0.146}, "load1": 1.29, "gpu_quiet_at_start": true, "t": "2026-10-25 16:56:56"}
+{"bench": "trainer_sb3", "args": "", "groups": 1, "bf16": 0, "graph": 1, "fps": 9002, "wall_s": 25.5, "share": {"gpu_wait": 0.11, "env_wait": 0.609, "collect": 0.792, "update": 0.207}, "load1": 2.28, "gpu_quiet_at_start": true, "t": "2026-10-25 16:57:26"}
+{"bench": "trainer_sb3", "args": "--groups 2", "groups": 2, "bf16": 0, "graph": 1, "fps": 9221, "wall_s": 25.3, "share": {"gpu_wait": 0.185, "env_wait": 0.451, "collect": 0.788, "update": 0.212}, "load1": 2.8, "gpu_quiet_at_start": true, "t": "2026-10-25 16:58:46"}
+{"bench": "trainer_sb3", "args": "--groups 4", "groups": 4, "bf16": 0, "graph": 1, "fps": 8953, "wall_s": 25.2, "share": {"gpu_wait": 0.364, "env_wait": 0.179, "collect": 0.792, "update": 0.206}, "load1": 3.16, "gpu_quiet_at_start": true, "t": "2026-10-25 16:59:16"}
+{"bench": "trainer_sb3", "args": "--groups 8", "groups": 8, "bf16": 0, "graph": 1, "fps": 2244, "wall_s": 25.6, "share": {"gpu_wait": 0.186, "env_wait": 0.64, "collect": 0.946, "update": 0.052}, "load1": 2.39, "gpu_quiet_at_start": true, "t": "2026-10-25 16:59:49"}
+{"bench": "trainer_sb3", "args": "--groups 2 --bf16 1", "groups": 2, "bf16": 1, "graph": 1, "fps": 5700, "wall_s": 26.6, "share": {"gpu_wait": 0.544, "env_wait": 0.235, "collect": 0.874, "update": 0.126}, "load1": 3.1, "gpu_quiet_at_start": true, "t": "2026-10-25 17:00:30"}
+{"bench": "step_latency_us", "n": 20000, "mean": 282.8, "p50": 288.2, "p99": 316.2, "normal_mean": 279.8, "reset_mean": 2487.9, "episodes": 27, "reset_share_of_time": 0.012, "load1": 1.17, "t": "2026-10-25 17:03:41"}
+{"bench": "trainer_sb3", "args": "--groups 4 --bf16 1", "groups": 4, "bf16": 1, "graph": 1, "fps": 3548, "wall_s": 25.4, "share": {"gpu_wait": 0.731, "env_wait": 0.075, "collect": 0.924, "update": 0.075}, "load1": 1.83, "gpu_quiet_at_start": true, "t": "2026-10-25 17:05:06"}
+{"bench": "env_lockstep", "backend": "fastmario_pool", "n_envs": 8, "us_per_step": 772, "sps": 10369, "load1": 5.0, "t": "2026-10-25 17:09:51"}
+{"bench": "env_lockstep", "backend": "spinpool", "n_envs": 8, "us_per_step": 770, "sps": 10386, "load1": 5.0, "t": "2026-10-25 17:09:53"}
+{"bench": "spinpool_equivalence", "n_envs": 8, "steps": 3000, "episodes": 65, "mismatches": 0}
+{"bench": "env_lockstep", "backend": "fastmario_pool", "n_envs": 4, "us_per_step": 496, "sps": 8070, "load1": 5.72, "t": "2026-10-25 17:09:59"}
+{"bench": "env_lockstep", "backend": "spinpool", "n_envs": 4, "us_per_step": 598, "sps": 6691, "load1": 5.82, "t": "2026-10-25 17:10:01"}
+{"bench": "spinpool_equivalence", "n_envs": 4, "steps": 3000, "episodes": 31, "mismatches": 0}
+{"bench": "env_lockstep", "backend": "fastmario_pool", "n_envs": 8, "us_per_step": 710, "sps": 11268, "load1": 1.44, "t": "2026-10-25 17:56:11"}
+{"bench": "env_lockstep", "backend": "spinpool", "n_envs": 8, "us_per_step": 684, "sps": 11702, "load1": 1.44, "t": "2026-10-25 17:56:13"}
+{"bench": "spinpool_equivalence", "n_envs": 8, "steps": 3000, "episodes": 65, "mismatches": 0}
+{"bench": "env", "n_envs": 1, "threads": 1, "groups": 1, "sps": 3543.7, "load1": 1.44, "t": "2026-10-25 17:56:13"}
+{"bench": "env", "n_envs": 8, "threads": 8, "groups": 1, "sps": 18867.3, "load1": 1.44, "t": "2026-10-25 17:56:13"}
+{"bench": "env", "n_envs": 8, "threads": 16, "groups": 1, "sps": 19885.8, "load1": 1.44, "t": "2026-10-25 17:56:13"}
+{"bench": "env", "n_envs": 8, "threads": 8, "groups": 2, "sps": 19062.6, "load1": 1.44, "t": "2026-10-25 17:56:13"}
+{"bench": "env", "n_envs": 8, "threads": 16, "groups": 2, "sps": 20157.2, "load1": 1.44, "t": "2026-10-25 17:56:13"}
+{"bench": "env", "n_envs": 16, "threads": 8, "groups": 1, "sps": 20552.2, "load1": 1.44, "t": "2026-10-25 17:56:13"}
+{"bench": "env", "n_envs": 16, "threads": 16, "groups": 1, "sps": 24478.9, "load1": 1.44, "t": "2026-10-25 17:56:13"}
+{"bench": "env", "n_envs": 16, "threads": 8, "groups": 2, "sps": 21744.4, "load1": 1.44, "t": "2026-10-25 17:56:13"}
+{"bench": "env", "n_envs": 16, "threads": 16, "groups": 2, "sps": 22138.3, "load1": 1.44, "t": "2026-10-25 17:56:13"}
+{"bench": "env", "n_envs": 32, "threads": 8, "groups": 1, "sps": 23039.5, "load1": 1.44, "t": "2026-10-25 17:56:13"}
+{"bench": "env", "n_envs": 32, "threads": 16, "groups": 1, "sps": 25623.6, "load1": 1.44, "t": "2026-10-25 17:56:13"}
+{"bench": "env", "n_envs": 32, "threads": 8, "groups": 2, "sps": 24987.1, "load1": 1.44, "t": "2026-10-25 17:56:13"}
+{"bench": "env", "n_envs": 32, "threads": 16, "groups": 2, "sps": 24373.3, "load1": 1.44, "t": "2026-10-25 17:56:13"}
+{"bench": "env", "n_envs": 64, "threads": 8, "groups": 1, "sps": 24571.8, "load1": 1.44, "t": "2026-10-25 17:56:13"}
+{"bench": "env", "n_envs": 64, "threads": 16, "groups": 1, "sps": 27581.9, "load1": 1.44, "t": "2026-10-25 17:56:13"}
+{"bench": "env", "n_envs": 64, "threads": 8, "groups": 2, "sps": 27597.0, "load1": 1.44, "t": "2026-10-25 17:56:13"}
+{"bench": "env", "n_envs": 64, "threads": 16, "groups": 2, "sps": 27142.6, "load1": 1.44, "t": "2026-10-25 17:56:13"}
+{"bench": "env", "n_envs": 128, "threads": 8, "groups": 1, "sps": 25987.8, "load1": 1.44, "t": "2026-10-25 17:56:13"}
+{"bench": "env", "n_envs": 128, "threads": 16, "groups": 1, "sps": 29079.4, "load1": 1.44, "t": "2026-10-25 17:56:13"}
+{"bench": "env", "n_envs": 128, "threads": 8, "groups": 2, "sps": 28837.2, "load1": 1.44, "t": "2026-10-25 17:56:13"}
+{"bench": "env", "n_envs": 128, "threads": 16, "groups": 2, "sps": 28476.7, "load1": 1.44, "t": "2026-10-25 17:56:13"}
+{"bench": "trainer_sb3", "args": "--graph 0", "groups": 1, "bf16": 0, "graph": 0, "fps": 7795, "wall_s": 25.2, "share": {"gpu_wait": 0.002, "env_wait": 0.507, "collect": 0.798, "update": 0.203}, "load1": 0.77, "gpu_quiet_at_start": true, "t": "2026-10-25 18:17:21"}
+{"bench": "trainer_sb3", "args": "", "groups": 1, "bf16": 0, "graph": 1, "fps": 9240, "wall_s": 25.3, "share": {"gpu_wait": 0.115, "env_wait": 0.596, "collect": 0.786, "update": 0.212}, "load1": 1.18, "gpu_quiet_at_start": true, "t": "2026-10-25 18:17:51"}
+{"bench": "trainer_sb3", "args": "--groups 2", "groups": 2, "bf16": 0, "graph": 1, "fps": 9106, "wall_s": 25.2, "share": {"gpu_wait": 0.191, "env_wait": 0.45, "collect": 0.79, "update": 0.21}, "load1": 1.8, "gpu_quiet_at_start": true, "t": "2026-10-25 18:18:20"}
+{"bench": "trainer_sb3", "args": "--env-backend spin", "groups": 1, "bf16": 0, "graph": 1, "fps": 9254, "wall_s": 25.2, "share": {"gpu_wait": 0.109, "env_wait": 0.596, "collect": 0.786, "update": 0.215}, "load1": 2.66, "gpu_quiet_at_start": true, "t": "2026-10-25 18:18:50"}
+{"bench": "trainer_sb3", "args": "--env-backend spin --groups 2", "groups": 2, "bf16": 0, "graph": 1, "fps": 9304, "wall_s": 25.1, "share": {"gpu_wait": 0.19, "env_wait": 0.426, "collect": 0.785, "update": 0.215}, "load1": 4.03, "gpu_quiet_at_start": true, "t": "2026-10-25 18:19:20"}
+{"bench": "trainer_sb3", "args": "--env-backend spin --groups 2 --spin-us 300", "groups": 2, "bf16": 0, "graph": 1, "fps": 9199, "wall_s": 25.4, "share": {"gpu_wait": 0.178, "env_wait": 0.438, "collect": 0.787, "update": 0.212}, "load1": 4.01, "gpu_quiet_at_start": true, "t": "2026-10-25 18:19:50"}
+{"bench": "trainer_sb3", "args": "--bf16 1 --env-backend spin --groups 2", "groups": 2, "bf16": 1, "graph": 1, "fps": 9783, "wall_s": 25.1, "share": {"gpu_wait": 0.147, "env_wait": 0.494, "collect": 0.818, "update": 0.182}, "load1": 4.46, "gpu_quiet_at_start": true, "t": "2026-10-25 18:20:19"}
+{"bench": "sb3_profile", "n_envs": 8, "steps": 16384, "wall_s": 3.57, "fps": 4584, "us_per_step": {"env_cpp": 59.4, "env_python": 28.5, "h2d": 3.9, "forward": 53.9, "buffer": 16.1, "update": 48.1, "d2h+other": 8.1}, "share": {"env_cpp": 0.272, "env_python": 0.131, "h2d": 0.018, "forward": 0.247, "buffer": 0.074, "update": 0.221, "d2h+other": 0.037}, "sync_timers": true, "load1": 3.55, "t": "2026-10-25 18:20:35"}
+{"bench": "concurrent", "k": 1, "extra": "", "pins": "", "per_run_fps": [9435], "aggregate_fps": 9435, "load1": 3.73, "t": "2026-10-25 18:21:10"}
+{"bench": "concurrent", "k": 2, "extra": "", "pins": "", "per_run_fps": [6795, 5902], "aggregate_fps": 12697, "load1": 5.02, "t": "2026-10-25 18:21:45"}
+{"bench": "concurrent", "k": 3, "extra": "", "pins": "", "per_run_fps": [5084, 4740, 4773], "aggregate_fps": 14597, "load1": 6.19, "t": "2026-10-25 18:22:21"}
+{"bench": "concurrent", "k": 4, "extra": "", "pins": "", "per_run_fps": [4347, 3779, 3924, 3929], "aggregate_fps": 15979, "load1": 7.3, "t": "2026-10-25 18:22:58"}
+{"bench": "concurrent", "k": 2, "extra": "--env-backend spin", "pins": "0-7;8-15", "per_run_fps": [3682, 3490], "aggregate_fps": 7172, "load1": 9.52, "t": "2026-10-25 18:23:34"}
+{"bench": "concurrent", "k": 2, "extra": "--env-backend spin", "pins": "0-3,8-11;4-7,12-15", "per_run_fps": [4019, 3591], "aggregate_fps": 7610, "load1": 11.11, "t": "2026-10-25 18:24:11"}
+{"bench": "concurrent", "k": 4, "extra": "--env-backend spin --spin-us 0", "pins": "0-3,8-11;4-7,12-15;0-3,8-11;4-7,12-15", "per_run_fps": [4109, 3631, 3663, 3728], "aggregate_fps": 15131, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_train", "batch": 256, "bf16": false, "channels_last": false, "cuda_graph": false, "samples_per_s": 199774, "ms_per_step": 1.281, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_train", "batch": 1024, "bf16": false, "channels_last": false, "cuda_graph": false, "samples_per_s": 221682, "ms_per_step": 4.619, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_train", "batch": 4096, "bf16": false, "channels_last": false, "cuda_graph": false, "samples_per_s": 229223, "ms_per_step": 17.869, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_train", "batch": 256, "bf16": false, "channels_last": false, "cuda_graph": true, "samples_per_s": 212495, "ms_per_step": 1.205, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_train", "batch": 1024, "bf16": false, "channels_last": false, "cuda_graph": true, "samples_per_s": 230724, "ms_per_step": 4.438, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_train", "batch": 4096, "bf16": false, "channels_last": false, "cuda_graph": true, "samples_per_s": 225768, "ms_per_step": 18.142, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_train", "batch": 256, "bf16": false, "channels_last": true, "cuda_graph": false, "samples_per_s": 198617, "ms_per_step": 1.289, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_train", "batch": 1024, "bf16": false, "channels_last": true, "cuda_graph": false, "samples_per_s": 213551, "ms_per_step": 4.795, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_train", "batch": 4096, "bf16": false, "channels_last": true, "cuda_graph": false, "samples_per_s": 220575, "ms_per_step": 18.57, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_train", "batch": 256, "bf16": false, "channels_last": true, "cuda_graph": true, "samples_per_s": 215156, "ms_per_step": 1.19, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_train", "batch": 1024, "bf16": false, "channels_last": true, "cuda_graph": true, "samples_per_s": 216803, "ms_per_step": 4.723, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_train", "batch": 4096, "bf16": false, "channels_last": true, "cuda_graph": true, "samples_per_s": 216791, "ms_per_step": 18.894, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_train", "batch": 256, "bf16": true, "channels_last": false, "cuda_graph": false, "samples_per_s": 198592, "ms_per_step": 1.289, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_train", "batch": 1024, "bf16": true, "channels_last": false, "cuda_graph": false, "samples_per_s": 260120, "ms_per_step": 3.937, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_train", "batch": 4096, "bf16": true, "channels_last": false, "cuda_graph": false, "samples_per_s": 279352, "ms_per_step": 14.663, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_train", "batch": 256, "bf16": true, "channels_last": false, "cuda_graph": true, "samples_per_s": 233061, "ms_per_step": 1.098, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_train", "batch": 1024, "bf16": true, "channels_last": false, "cuda_graph": true, "samples_per_s": 263707, "ms_per_step": 3.883, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_train", "batch": 4096, "bf16": true, "channels_last": false, "cuda_graph": true, "samples_per_s": 267237, "ms_per_step": 15.327, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_train", "batch": 256, "bf16": true, "channels_last": true, "cuda_graph": false, "samples_per_s": 200264, "ms_per_step": 1.278, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_train", "batch": 1024, "bf16": true, "channels_last": true, "cuda_graph": false, "samples_per_s": 261477, "ms_per_step": 3.916, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_train", "batch": 4096, "bf16": true, "channels_last": true, "cuda_graph": false, "samples_per_s": 271583, "ms_per_step": 15.082, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_train", "batch": 256, "bf16": true, "channels_last": true, "cuda_graph": true, "samples_per_s": 257544, "ms_per_step": 0.994, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_train", "batch": 1024, "bf16": true, "channels_last": true, "cuda_graph": true, "samples_per_s": 273912, "ms_per_step": 3.738, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_train", "batch": 4096, "bf16": true, "channels_last": true, "cuda_graph": true, "samples_per_s": 276605, "ms_per_step": 14.808, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_infer", "batch": 8, "bf16": false, "mode": "eager", "samples_per_s": 53820, "ms_per_call": 0.149, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_infer", "batch": 8, "bf16": false, "mode": "graph", "samples_per_s": 78011, "ms_per_call": 0.103, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_infer", "batch": 32, "bf16": false, "mode": "eager", "samples_per_s": 209921, "ms_per_call": 0.152, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_infer", "batch": 32, "bf16": false, "mode": "graph", "samples_per_s": 268546, "ms_per_call": 0.119, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_infer", "batch": 64, "bf16": false, "mode": "eager", "samples_per_s": 421360, "ms_per_call": 0.152, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_infer", "batch": 64, "bf16": false, "mode": "graph", "samples_per_s": 427544, "ms_per_call": 0.15, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_infer", "batch": 128, "bf16": false, "mode": "eager", "samples_per_s": 540952, "ms_per_call": 0.237, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_infer", "batch": 128, "bf16": false, "mode": "graph", "samples_per_s": 524304, "ms_per_call": 0.244, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_infer", "batch": 256, "bf16": false, "mode": "eager", "samples_per_s": 597419, "ms_per_call": 0.429, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_infer", "batch": 256, "bf16": false, "mode": "graph", "samples_per_s": 606372, "ms_per_call": 0.422, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_infer", "batch": 512, "bf16": false, "mode": "eager", "samples_per_s": 497688, "ms_per_call": 1.029, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_infer", "batch": 512, "bf16": false, "mode": "graph", "samples_per_s": 514961, "ms_per_call": 0.994, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_infer", "batch": 8, "bf16": true, "mode": "eager", "samples_per_s": 40177, "ms_per_call": 0.199, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_infer", "batch": 8, "bf16": true, "mode": "graph", "samples_per_s": 97494, "ms_per_call": 0.082, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_infer", "batch": 32, "bf16": true, "mode": "eager", "samples_per_s": 161021, "ms_per_call": 0.199, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_infer", "batch": 32, "bf16": true, "mode": "graph", "samples_per_s": 316322, "ms_per_call": 0.101, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_infer", "batch": 64, "bf16": true, "mode": "eager", "samples_per_s": 328221, "ms_per_call": 0.195, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_infer", "batch": 64, "bf16": true, "mode": "graph", "samples_per_s": 457432, "ms_per_call": 0.14, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_infer", "batch": 128, "bf16": true, "mode": "eager", "samples_per_s": 531469, "ms_per_call": 0.241, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_infer", "batch": 128, "bf16": true, "mode": "graph", "samples_per_s": 586430, "ms_per_call": 0.218, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_infer", "batch": 256, "bf16": true, "mode": "eager", "samples_per_s": 614183, "ms_per_call": 0.417, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_infer", "batch": 256, "bf16": true, "mode": "graph", "samples_per_s": 621878, "ms_per_call": 0.412, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_infer", "batch": 512, "bf16": true, "mode": "eager", "samples_per_s": 513062, "ms_per_call": 0.998, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "learner_infer", "batch": 512, "bf16": true, "mode": "graph", "samples_per_s": 530830, "ms_per_call": 0.965, "load1": 13.0, "t": "2026-10-25 18:24:48"}
+{"bench": "concurrent", "k": 4, "extra": "--threads-per-group 4", "pins": "", "per_run_fps": [3809, 3346, 3447, 3498], "aggregate_fps": 14100, "load1": 4.47, "t": "2026-10-25 18:34:07"}
+{"bench": "concurrent", "k": 4, "extra": "--threads-per-group 2", "pins": "", "per_run_fps": [3234, 3024, 2971, 3075], "aggregate_fps": 12304, "load1": 5.29, "t": "2026-10-25 18:34:45"}
+{"bench": "concurrent", "k": 6, "extra": "--threads-per-group 2", "pins": "", "per_run_fps": [2592, 2455, 2446, 2509, 2641, 2422], "aggregate_fps": 15065, "load1": 7.38, "t": "2026-10-25 18:35:24"}
+{"bench": "concurrent", "k": 8, "extra": "--threads-per-group 2", "pins": "", "per_run_fps": [2149, 1956, 2013, 2045, 2144, 2045, 2010, 2044], "aggregate_fps": 16406, "load1": 9.3, "t": "2026-10-25 18:36:04"}
+{"bench": "concurrent", "k": 4, "extra": "", "pins": "", "per_run_fps": [5223, 4769, 4745, 4826], "aggregate_fps": 19563, "load1": 7.99, "t": "2026-10-25 18:43:52"}
+{"bench": "concurrent", "k": 4, "extra": "", "pins": "", "per_run_fps": [4338, 3804, 3937, 3904], "aggregate_fps": 15983, "load1": 7.83, "t": "2026-10-25 18:44:37"}
+{"bench": "concurrent", "k": 1, "extra": "", "pins": "", "per_run_fps": [9301], "aggregate_fps": 9301, "load1": 5.77, "t": "2026-10-25 18:45:13"}
+{"bench": "concurrent", "k": 2, "extra": "", "pins": "", "per_run_fps": [7324, 6488], "aggregate_fps": 13812, "load1": 4.82, "t": "2026-10-25 18:45:48"}
+{"bench": "concurrent", "k": 6, "extra": "", "pins": "", "per_run_fps": [3899, 3458, 3464, 3590, 3909, 3480], "aggregate_fps": 21800, "load1": 11.83, "t": "2026-10-25 18:46:26"}
+{"bench": "concurrent", "k": 8, "extra": "", "pins": "", "per_run_fps": [3060, 2787, 2801, 2852, 3030, 2834, 2834, 2788], "aggregate_fps": 22986, "load1": 23.07, "t": "2026-10-25 18:47:05"}
+{"bench": "concurrent", "k": 8, "extra": "", "pins": "", "per_run_fps": [2324, 2194, 2180, 2216, 2340, 2218, 2223, 2222], "aggregate_fps": 17917, "load1": 23.54, "t": "2026-10-25 18:47:56"}
+{"bench": "concurrent", "k": 8, "extra": "--threads-per-group 2", "pins": "", "per_run_fps": [2818, 2660, 2559, 2691, 2823, 2639, 2580, 2669], "aggregate_fps": 21439, "load1": 17.54, "t": "2026-10-25 18:48:36"}
+{"bench": "note", "text": "concurrent runs 2026-10-25 18:43:52 (k4 19563), 18:45:13..18:47:05 (k1,2,6,8) and 18:48:37 (k8 tpg2 21439) were under a user-level CUDA MPS daemon (bench/mps.sh); 18:44:37 (k4 15983) and 18:47:56 (k8 17917) are no-MPS controls. Box quiet (no foreign GPU apps)."}
