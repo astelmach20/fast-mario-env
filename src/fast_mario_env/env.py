@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
 """FastVecEnv: N bit-exact Super Mario Bros envs stepped by a C++ thread pool in this process.
 
     from fast_mario_env import FastVecEnv

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 // ---------------------------------------------------------------------------------------------
 // v2 step kernel (compiled in the same unit as nes_cuda.cu, reusing its layout/env types).
 //

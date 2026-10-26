@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 // fast-mario-env CUDA port: one thread per Super Mario Bros env, bit-exact with csrc/nes_core.hpp +
 // csrc/fastmario.cpp (which are bit-exact with nes-py + gym-super-mario-bros).
 //

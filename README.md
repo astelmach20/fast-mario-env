@@ -165,11 +165,14 @@ Larger runs made during development, all with 0 mismatches and 0 unimplemented o
 - raw frames: 5k + 3x30k + 10k (every frame rendered) + 2x8k + 10k frames;
 - env level: 1500 steps x 4 envs x 4 configs on 1-1 and 4-1, and the same driven by a trained PPO agent
   (73 episodes, 37 flag clears);
+- CPU core vs the nes-py reference, **all 32 levels**: 3000 steps x 4 envs x 4 configs (default, sticky + no-op,
+  max-pool + sticky, short time limit) per level, 128 level/config runs, 27,681 episodes, 0 mismatches; plus a
+  100k-frame raw run (RAM every frame, 30,056 screens) with 0 mismatches;
 - CUDA vs CPU: all 32 levels side by side (512 envs x 1500 steps x 3 configs, about 42k episodes), and with a
   trained agent (16 envs x 1500 steps x 3 configs, 129 flag clears).
 
 Not covered: the Lost Levels ROM. Random play also rarely reaches the later parts of levels; the flag, pipe and
-time-limit paths were exercised with the trained agent on 1-1 only. Every level runs through the same mapper and
+time-limit paths were exercised with the trained agent on 1-1 only (random play reaches no flags on any level). Every level runs through the same mapper and
 code paths, so the remaining risk is a rarely used opcode or PPU path. The core counts unimplemented opcodes
 (`bad_ops()`), and that count stayed at 0 in all runs.
 
@@ -307,11 +310,13 @@ and [docs/cuda.md](docs/cuda.md).
 
 ## Credits and license
 
-MIT licensed, copyright (c) 2026 Andrew Stelmach; see [LICENSE](LICENSE).
+Copyright (c) 2026 Andrew Stelmach. Licensed under the GNU General Public License v3.0 or later
+(GPL-3.0-or-later); see [LICENSE](LICENSE). GPL was chosen because the emulator core reproduces nes-py's emulator,
+which derives from the GPLv3-licensed SimpleNES.
 
 - The emulator core is a re-implementation of the [nes-py](https://github.com/Kautenja/nes-py) emulator by
-  Christian Kauten (MIT), which is itself based on [SimpleNES](https://github.com/amhndu/SimpleNES) by Amish
-  Naidu.
+  Christian Kauten (declared MIT), which is itself based on [SimpleNES](https://github.com/amhndu/SimpleNES) by
+  Amish Naidu and contributors (GPLv3).
 - Reward, info and level semantics follow [gym-super-mario-bros](https://github.com/Kautenja/gym-super-mario-bros)
   by Christian Kauten.
 - The resize and grayscale ports reproduce [OpenCV](https://opencv.org)'s `INTER_AREA` and `RGB2GRAY`, and the

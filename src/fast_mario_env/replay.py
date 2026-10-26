@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
 """Frame-deduplicating replay buffer (needs torch) for frame-stacked pixel envs (DQN / Rainbow / MR.Q style).
 
 Stores each 84x84 frame ONCE per env (ring of C slots), plus per-slot metadata, instead of

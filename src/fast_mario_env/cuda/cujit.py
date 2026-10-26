@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
 """Minimal NVRTC + CUDA driver API loader via ctypes (no host compiler, no extra deps).
 
 Uses the NVRTC shipped with torch's CUDA pip wheels (e.g. nvidia-cuda-nvrtc-cu12) and the driver's

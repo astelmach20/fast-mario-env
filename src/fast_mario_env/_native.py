@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
 """ctypes bindings for the native emulator library (built from csrc/ at install time)."""
 from __future__ import annotations
 

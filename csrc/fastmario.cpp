@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 // fast-mario-env: batched Super Mario Bros environment in C++ (threads, no processes, GIL-free via ctypes).
 //
 // Semantics reproduce the reference nes-py wrapper stack (tests/reference_env.py) exactly:

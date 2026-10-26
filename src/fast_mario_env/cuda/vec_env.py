@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
 """CudaVecEnv: thousands of bit-exact Super Mario Bros envs stepped on the GPU.
 
     from fast_mario_env.cuda import CudaVecEnv

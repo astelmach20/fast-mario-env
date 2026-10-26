@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
 """Lean PPO for Super Mario Bros on fast-mario-env (CleanRL-style; this file + model.py + backends.py).
 
   * rollout storage on the GPU (uint8 obs); the C++ envs write into pinned host tensors; non_blocking H2D

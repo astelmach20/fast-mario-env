@@ -7,7 +7,7 @@ name = "fast-mario-env"
 version = "0.1.0"
 description = "Bit-exact, batched, 10-15x faster Super Mario Bros (nes-py / gym-super-mario-bros) environment for RL, with an optional CUDA backend"
 readme = "README.md"
-license = { file = "LICENSE" }
+license = { text = "GPL-3.0-or-later" }
 authors = [{ name = "Andrew Stelmach" }]
 requires-python = ">=3.10"
 dependencies = ["numpy>=1.21"]
@@ -15,7 +15,7 @@ keywords = ["reinforcement-learning", "super-mario-bros", "nes", "emulator", "gy
 classifiers = [
   "Programming Language :: Python :: 3",
   "Programming Language :: C++",
-  "License :: OSI Approved :: MIT License",
+  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
   "Operating System :: POSIX :: Linux",
   "Topic :: Scientific/Engineering :: Artificial Intelligence",
 ]

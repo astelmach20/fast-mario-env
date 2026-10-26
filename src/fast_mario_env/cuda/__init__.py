@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
 """Optional CUDA backend: thousands of bit-exact Super Mario Bros envs on one NVIDIA GPU.
 
 Needs torch with CUDA (``pip install fast-mario-env[cuda]``). Kernels are compiled at first use with

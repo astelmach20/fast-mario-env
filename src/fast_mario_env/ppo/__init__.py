@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
 """Lean PPO trainer (needs ``pip install fast-mario-env[train]``): the math of SB3's PPO with the Nature CNN,
 made fast with CUDA graphs, GPU rollout storage and zero-copy env buffers.
 

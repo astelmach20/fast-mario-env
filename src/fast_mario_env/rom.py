@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
 """Locating the Super Mario Bros ROM and decoding level names.
 
 No ROM is shipped with this package. It is loaded at runtime, in this order:

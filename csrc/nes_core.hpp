@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 // fast-mario-env NES core: a behaviour-identical re-implementation of the nes-py 8.2.1 (SimpleNES-derived)
 // emulator, restricted to mapper 0 (NROM, e.g. Super Mario Bros).
 //

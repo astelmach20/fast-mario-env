@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
 """Nature-CNN actor-critic, identical in architecture and init to SB3 `CnnPolicy` (shared NatureCNN
 features, net_arch=[] -> separate linear pi / vf heads; orthogonal init gains sqrt(2) / 0.01 / 1),
 plus a graph-capturable PPO loss identical to SB3 PPO.train() (per-minibatch advantage

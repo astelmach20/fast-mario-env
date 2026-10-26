@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
 """fast-mario-env: a bit-exact, batched, much faster Super Mario Bros environment for RL.
 
     from fast_mario_env import FastVecEnv, sb3_vec_env

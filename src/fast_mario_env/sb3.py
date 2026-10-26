@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
 """Stable-Baselines3 VecEnv adapter over FastVecEnv (needs `pip install fast-mario-env[sb3]`)."""
 from __future__ import annotations
 

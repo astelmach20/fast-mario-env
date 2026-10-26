@@ -1,6 +1,6 @@
 # Third-party notices
 
-fast-mario-env is licensed under the MIT License (see `LICENSE`). It contains no code copied from the projects
+fast-mario-env is licensed under the GNU General Public License v3.0 or later (see `LICENSE`). It contains no code copied from the projects
 below and ships no ROM; it re-implements their behaviour so that its output is identical to theirs, and its tests
 use them as the reference. Their notices are reproduced here for attribution.
 
@@ -36,7 +36,9 @@ SOFTWARE.
 
 nes-py's emulator is in turn derived from SimpleNES by Amish Naidu and contributors
 (https://github.com/amhndu/SimpleNES), which is published under the GNU GPL v3. nes-py's own licensing notes
-point out that this upstream declaration differs from nes-py's MIT declaration.
+point out that this upstream declaration differs from nes-py's MIT declaration. Because fast-mario-env's core
+reproduces that emulator, fast-mario-env is distributed under the GPL v3 (or later), which is compatible with
+both upstream declarations.
 
 ## gym-super-mario-bros
 
